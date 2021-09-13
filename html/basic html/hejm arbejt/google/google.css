@@ -1,0 +1,54 @@
+.bilder {
+ width: 280px;
+ margin: 255px auto 0 auto;
+ 
+} 
+input {
+width: 100%;
+height: 40px; 
+border-radius: 30px;
+border: 1px solid lightgray;
+
+
+}
+img{
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+
+} 
+.search-box {
+    margin:auto; 
+    width: 575px;
+    margin-top: 30px; 
+
+
+}
+.right {
+    position: absolute;
+    display:flex; 
+    top: 0;
+    right: 200px;
+    align-items: center;
+}
+.right p {
+    padding: 0px 10px
+}
+i {
+padding: 0 20px
+}
+.blue-box{
+    background-color:#1A73E8;
+    border-color: blue; 
+    position: absolute;
+    display: flex;
+    top: 9px;
+    right: 120px; 
+ align-items: center;
+ padding: 8px 15px; 
+ color: white;
+ border-radius: 5px;
+    
+}
