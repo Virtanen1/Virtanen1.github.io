@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+    height: 100vh; 
+    
+    }
+  
+    h1 {
+
+font-size: 20px;
+}
+
+    .bilder{ 
+ 
+    width: 75px;  
+  margin-right: 20px; 
+  
+}
+@keyframes changecolor{
+    100% {
+        background-color: rgba(139, 224, 196, 0.582);
+    }
+}
+    p { 
+    color:grey
+   
+    }
+
+    .box {
+        background-color: rgb(255, 255, 255); 
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 850px;
+        margin: auto; 
+       border-radius: 10px;
+       box-shadow:3px 5px  rgba(20, 18, 18, 0.205);
+       margin-top: 20px;
+       padding: 12px;
+    
+} 
+.title {
+    text-align: center; 
+    margin-top: 10px;
+
+   
+} 
+.item:hover{
+    animation-name: changecolor; 
+    background-color:rgba(139, 224, 196, 0.582);
+    animation-duration: 1s; 
+    animation-fill-mode: forwards;
+    
+    
+} 
+@keyframes changecolor {
+    100% {
+        background-color:rgb(255, 255, 255);
+    }
+}
+.item {
+    padding: 10px;
+    display: flex;
+    align-items:flex-start;
+    
+    
+}
+.title h1{
+    padding: 10px;
+}
+@media ( max-width: 600px){
+    .box{ 
+        width:100%;
+        background: none; 
+        color:white; 
+        box-shadow: none; 
+        padding: auto;
+        
+    }
+    p {
+        color:white;
+    }
+}
